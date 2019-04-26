@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "regions": ["lhr"],
+  "alias": "cividi.be",
+  "builds": [
+    { "src": "package.json", "use": "@now/static-build" }
+  ]
+}
