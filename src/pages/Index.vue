@@ -2,10 +2,10 @@
   <Layout :show-logo="false">
     <!-- Author intro -->
     <Author :show-title="true" />
-    
+
     <!-- List posts -->
     <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+      <PostCard v-for="edge in $page.posts.edges" v-if="lang == $lang" :key="edge.node.id" :post="edge.node"/>
     </div>
 
   </Layout>
@@ -19,6 +19,7 @@
         id
         title
         path
+        lang
         tags {
           id
           title
