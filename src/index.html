@@ -34,6 +34,35 @@
 
         setTheme(preferredTheme || (darkQuery.matches ? 'dark' : 'light'));
       })();
+
+      // Add language detection. Based on the above.
+      (function() {
+        window.__onLangChange = function() {};
+        function setLanguage(newLanguage) {
+          window.__lang = newLanguage;
+          preferredLang = newLanguage;
+          document.body.setAttribute('data-theme', newLanguage);
+          window.__onLangChange(newLanguage);
+        }
+
+        var preferredLang;
+        try {
+          preferredLang = localStorage.getItem('lang');
+        } catch (err) { }
+
+        window.__setPreferredLang = function(newLanguage) {
+          setLanguage(newLanguage);
+          try {
+            localStorage.setItem('lang', newLanguage);
+          } catch (err) {}
+        }
+
+        // TODO: js browser lang detec
+        // darkQuery.addListener(function(e) {
+        //   window.__setPreferredLang(e.matches ? 'dark' : 'light')
+        // });
+        // setLanguages(preferredLang || (darkQuery.matches ? 'dark' : 'light'));
+      })();
     </script>
 
     ${app}
