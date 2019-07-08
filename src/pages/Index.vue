@@ -51,7 +51,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: '(cividi planet)'
+    title: '(cividi)'
   }
 }
 </script>

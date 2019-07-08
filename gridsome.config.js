@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Cividi Planet',
+  siteName: '(cividi) home',
   siteDescription: 'Digitale Werkzeuge für die analoge Stadt',
 
   plugins: [
@@ -24,6 +24,14 @@ module.exports = {
             create: true
           }
         }
+      }
+    },{
+      // Create pages also from markdown files
+      use: '@gridsome/source-filesystem',
+      options: {
+        typeName: 'Doc',
+        path: 'content/docs/*.md',
+        route: '/:lang/:slug'
       }
     },{
       use: '@gridsome/plugin-sitemap',

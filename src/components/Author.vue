@@ -12,8 +12,9 @@
 		</p>
 
 		<p class="author__links">
-			<a href="//twitter.com/smartuseproject">@smartuseproject</a>
-			<a href="//github.com/cividi">@cividi</a>
+			<a href="/de/about">About</a>
+			<!-- <a href="//twitter.com/smartuseproject">@smartuseproject</a>
+			<a href="//github.com/cividi">@cividi</a> -->
 		</p>
 
 	</div>
