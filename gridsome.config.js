@@ -7,6 +7,7 @@
 module.exports = {
   siteName: '(cividi) home',
   siteDescription: 'Digitale Werkzeuge für die analoge Stadt',
+  siteUrl: 'https://cividi.be',
 
   plugins: [
     {
