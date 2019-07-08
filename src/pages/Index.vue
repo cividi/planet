@@ -5,7 +5,7 @@
 
     <!-- List posts -->
     <div class="posts">
-      <PostCard v-for="edge in $page.posts.edges" v-if="lang == $lang" :key="edge.node.id" :post="edge.node"/>
+      <PostCard v-for="edge in $page.posts.edges" v-if="edge.node.published" :key="edge.node.id" :post="edge.node"/>
     </div>
 
   </Layout>
@@ -27,6 +27,7 @@
         }
         date (format: "D. MMMM YYYY")
         timeToRead
+        published
         description
         coverImage (width: 770, height: 380, blur: 10)
         ...on Post {
@@ -50,7 +51,7 @@ export default {
     PostCard
   },
   metaInfo: {
-    title: 'Hello, world!'
+    title: '(cividi planet)'
   }
 }
 </script>

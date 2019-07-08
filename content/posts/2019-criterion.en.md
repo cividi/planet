@@ -4,6 +4,7 @@ date: 2019-04-26
 tags: ['Events']
 lang: en
 description: "First post! Here is how we represented civic tech and open data at one of Switzerland's top trade fairs dedicated to sustainability."
+published: true
 ---
 
 This year the association we were a guest at [Criterion](https://criterion.ch): a four day festival at Messe Zürich dedicated to sustainable design and business. The **cividi** team partnered with [Crowd Container](https://crowdcontainer.ch) to bring [Opendata.ch](https://opendata.ch) to the people, and highlight some of the ways that Open Data could play a role in enabling and monitoring sustainability. We co-presented with [BitsAboutMe](https://bitsabout.me/en/), a new Personal Data service that aims to help protect your privacy and get a fair deal when sharing profiles with companies and institutions.
