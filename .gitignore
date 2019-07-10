@@ -4,5 +4,4 @@ package-lock.json
 
 dist/
 .cache/
-yarn.lock
 .temp/

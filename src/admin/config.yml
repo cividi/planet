@@ -1,0 +1,35 @@
+backend:
+  name: github
+  repo: cividi/planet
+  branch: deploy
+
+media_folder: "static/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "posts"
+    label: "Posts"
+    folder: "content/posts"
+    create: true
+    slug: "{{lang}}-{{year}}-{{month}}-{{day}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text", default: "" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Language", name: "lang", widget: "string", default: "de" }
+      - { label: "Published", name: "published", widget: "boolean", default: true }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
+      - { label: "Cover", name: "coverImage", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "docs"
+    label: "Docs"
+    folder: "content/docs"
+    create: true
+    slug: "{{lang}}-{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Language", name: "lang", widget: "string", default: "de" }
+      - { label: "Slug", name: "slug", widget: "string", default: "" }
+      - { label: "Summary", name: "summary", widget: "text", default: "" }
+      - { label: "Body", name: "body", widget: "markdown" }

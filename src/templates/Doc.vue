@@ -1,13 +1,13 @@
 <template>
   <Layout>
-    <div class="post-title">
-      <h1 class="post-title__text">
+    <div class="doc-title">
+      <h1 class="doc-title__text">
         {{ $page.doc.title }}
       </h1>
     </div>
 
-    <div class="post content-box">
-      <div class="post__content" v-html="$page.doc.content" />
+    <div class="doc content-box">
+      <div class="doc__content" v-html="$page.doc.content" />
     </div>
   </Layout>
 </template>
@@ -42,12 +42,12 @@ query Doc ($path: String!) {
 </page-query>
 
 <style lang="scss">
-.post-title {
+.doc-title {
   padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
   text-align: center;
 }
 
-.post {
+.doc {
 
   &__header {
     width: calc(100% + var(--space) * 2);
