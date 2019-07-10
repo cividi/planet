@@ -1,5 +1,6 @@
 FROM node:lts-alpine
-RUN apt-get install lscpu
+RUN apk update
+RUN apk add util-linux 
 
 WORKDIR .
 COPY package*.json ./
