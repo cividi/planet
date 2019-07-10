@@ -13,13 +13,14 @@ collections:
     create: true
     slug: "{{lang}}-{{year}}-{{month}}-{{day}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Date", name: "date", widget: "date" }
-      - { label: "Language", name: "lang", widget: "string", default: "de" }
-      - { label: "Published", name: "published", widget: "boolean" }
-      - { label: "Tags", name: "tags", widget: "list" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "title", name: "title", widget: "string" }
+      - { label: "description", name: "description", widget: "text", default: "" }
+      - { label: "date", name: "date", widget: "date" }
+      - { label: "lang", name: "lang", widget: "string", default: "de" }
+      - { label: "published", name: "published", widget: "boolean", default: true }
+      - { label: "tags", name: "tags", widget: "list", default: [] }
+      - { label: "coverImage", name: "coverImage", widget: "image" }
+      - { label: "body", name: "body", widget: "markdown" }
 
   - name: "docs"
     label: "Docs"
@@ -29,6 +30,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Language", name: "lang", widget: "string", default: "de" }
-      - { label: "Slug", name: "slug", widget: "string" }
-      - { label: "Summary", name: "summary", widget: "text" }
+      - { label: "Slug", name: "slug", widget: "string", default: "" }
+      - { label: "Summary", name: "summary", widget: "text", default: "" }
       - { label: "Body", name: "body", widget: "markdown" }

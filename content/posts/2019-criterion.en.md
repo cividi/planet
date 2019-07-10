@@ -5,19 +5,16 @@ tags: ['Events']
 lang: en
 description: "First post! Here is how we represented civic tech and open data at one of Switzerland's top trade fairs dedicated to sustainability."
 published: true
+coverImage: ~/assets/images/posts/2019q1/criterion-booth.jpg
 ---
 
 This year the association we were a guest at [Criterion](https://criterion.ch): a four day festival at Messe Zürich dedicated to sustainable design and business. The **cividi** team partnered with [Crowd Container](https://crowdcontainer.ch) to bring [Opendata.ch](https://opendata.ch) to the people, and highlight some of the ways that Open Data could play a role in enabling and monitoring sustainability. We co-presented with [BitsAboutMe](https://bitsabout.me/en/), a new Personal Data service that aims to help protect your privacy and get a fair deal when sharing profiles with companies and institutions.
 
 In addition to our adjacent booths in the _Smart Transparency_ zone of the fair, we held a joint [panel session](https://criterion.ch/transparent-trade---whats-the-role-of-data-and_de) moderated by [Impact Hub Zürich](https://twitter.com/impacthubzurich/status/1112301649157152768), [coached startups](https://criterion.ch/speeddating-alnatura-freitag_de), contributed virtually to an open product footprint [hackathon](https://www.facebook.com/media/set/?set=a.1263886563787569&type=3), and shared experiences from our work on [Smart Use](https://smartuse.ch) - a _Civic Urbanism_ project putting open data to use in participative city planning.
 
-[![](~/assets/images/posts/2019q1/criterion-booth.jpg)](https://criterion.smartuse.ch)
-
-Our booth featured a digital showcase of many projects from the open data community, including outputs from recent crowdsourcing events such [Opendata.ch Hackdays](https://hack.opendata.ch), that we felt would provoke critical responses from Criterion visitors. More projects and data visualizations like the one above can be found online at [db.opü.ch](https://db.opü.ch/event/2).
-
 [![](~/assets/images/posts/2019q1/opendatazurich.jpg)](https://db.xn--op-yka.ch/project/34)
 
-There were demonstrations and explanations of the boundaries and intersections of personal and public data. We had a great time, and in this blog post we go behind the scenes of our civic tech installation.
+Our booth featured a digital showcase of many projects from the open data community, including outputs from recent crowdsourcing events such [Opendata.ch Hackdays](https://hack.opendata.ch), that we felt would provoke critical responses from Criterion visitors. More projects and data visualizations like the one above can be found online at [db.opü.ch](https://db.opü.ch/event/2). There were demonstrations and explanations of the boundaries and intersections of personal and public data. In this post we go behind the scenes of our civic tech installation.
 
 ## Tangible cities
 
