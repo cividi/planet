@@ -3,6 +3,7 @@ title: Kontakt
 lang: de
 slug: contact
 summary: "Kontaktinfos"
+position: 10
 ---
 
 # Mitmachen!

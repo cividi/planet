@@ -1,21 +1,12 @@
 <template>
 	<div class="author">
 
-		<g-image class="logotype" src="~/assets/images/logo/cividi_logotype_white.png" blur="5" />
-
-		<!-- <h1 v-if="showTitle" class="author__site-title">
+		<h1 v-if="showTitle" class="author__site-title">
 			{{ $static.metaData.siteName }}
-		</h1> -->
+		</h1>
 
 		<p class="author__intro">
-			Digitale Werkzeuge für die analoge Stadt
-		</p>
-
-		<p class="author__links">
-			<a href="/de/about">About</a>
-			<a href="/de/contact">Contact</a>
-			<!-- <a href="//twitter.com/smartuseproject">@smartuseproject</a>
-			<a href="//github.com/cividi">@cividi</a> -->
+			Author page
 		</p>
 
 	</div>
@@ -55,13 +46,6 @@ export default {
 
 	&__site-title {
 		font-size: 1.5em;
-	}
-
-	&__links {
-		margin-top: -.5em;
-		a {
-			margin: 0 .5em;
-		}
 	}
 }
 </style>

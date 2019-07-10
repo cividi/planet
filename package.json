@@ -17,7 +17,7 @@
     "@gridsome/remark-prismjs": "*",
     "@gridsome/source-filesystem": "*",
     "@gridsome/transformer-remark": "*",
-    "gridsome": "*",
+    "gridsome": "^0.6.0",
     "gridsome-plugin-netlify-cms": "*",
     "netlify-cms": "*"
   },

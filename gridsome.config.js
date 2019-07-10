@@ -16,7 +16,7 @@ module.exports = {
       options: {
         typeName: 'Post',
         path: 'content/posts/*.md',
-        route: '/:lang/:year-:month-:day',
+        route: '/blog/:lang/:year-:month-:day',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
@@ -32,7 +32,7 @@ module.exports = {
       options: {
         typeName: 'Doc',
         path: 'content/docs/*.md',
-        route: '/:lang/:slug'
+        route: '/p/:lang/:slug'
       }
     },{
       use: '@gridsome/plugin-sitemap',

@@ -4278,7 +4278,7 @@ gridsome-plugin-netlify-cms@*:
     webpack "^4.29.0"
     webpack-dev-middleware "^3.5.1"
 
-gridsome@*:
+gridsome@^0.6.0:
   version "0.6.6"
   resolved "https://registry.yarnpkg.com/gridsome/-/gridsome-0.6.6.tgz#054ce5b4f4c43624fd4885cbadd116e4b12471e2"
   integrity sha512-6NSnOhM5wvxxSxIJt9FAOeA5IRZgx6J1V19kyfKyLxdWjlzfDwrhKFUPgROgob3N5zQfapslt3Zi21t8YS8DKg==
