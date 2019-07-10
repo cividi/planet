@@ -3,6 +3,7 @@ title: About
 lang: de
 slug: about
 summary: "Über uns"
+position: 1
 ---
 
 Damit Planung und Städtebau weiterhin nachhaltige und lebenswerte Städte ermöglichen können, trotz wachsender Bevölkerungszahl, zunehmendem Verkehr und der politisch geforderten Verdichtung nach Innen, müssen sie partizipativ, fakten-basiert werden.

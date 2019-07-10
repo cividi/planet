@@ -12,6 +12,8 @@ Based on Gridsome Blog.
 - 100, 100, 100, 100 score on Google Lighthouse.
 - Uses same front-matter fields as Dev.to.
 
+Happy coding 🎉🙌
+
 ## Deployment
 
 `npm install --global @gridsome/cli`
@@ -20,4 +22,8 @@ Based on Gridsome Blog.
 
 `npm deploy` to send this off to our ZEIT server
 
-Happy coding 🎉🙌
+## Docker deployment
+
+`docker build -t gridsome-planet .`
+
+`docker run -it -p 8080:8080 --rm --name planet-1 gridsome-planet:latest`
