@@ -29,7 +29,7 @@
         timeToRead
         published
         description
-        coverImage (width: 770, height: 380, blur: 10)
+        coverImage #(width: 770, height: 380, blur: 10)
         ...on Post {
             id
             title

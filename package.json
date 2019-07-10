@@ -12,17 +12,17 @@
     "deploy": "now && now --target production && now rm cividi-planet --safe --yes"
   },
   "dependencies": {
-    "@gridsome/plugin-google-analytics": "^0.1.0",
-    "@gridsome/plugin-sitemap": "^0.2.1",
-    "@gridsome/remark-prismjs": "^0.0.4",
-    "@gridsome/source-filesystem": "^0.5.0",
-    "@gridsome/transformer-remark": "^0.3.2",
-    "gridsome": "^0.5.0",
-    "gridsome-plugin-netlify-cms": "^1.0.8",
-    "netlify-cms": "^2.9.5"
+    "@gridsome/plugin-google-analytics": "*",
+    "@gridsome/plugin-sitemap": "*",
+    "@gridsome/remark-prismjs": "*",
+    "@gridsome/source-filesystem": "*",
+    "@gridsome/transformer-remark": "*",
+    "gridsome": "*",
+    "gridsome-plugin-netlify-cms": "*",
+    "netlify-cms": "*"
   },
   "devDependencies": {
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0"
+    "node-sass": "*",
+    "sass-loader": "*"
   }
 }

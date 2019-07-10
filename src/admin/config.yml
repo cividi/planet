@@ -13,14 +13,14 @@ collections:
     create: true
     slug: "{{lang}}-{{year}}-{{month}}-{{day}}"
     fields:
-      - { label: "title", name: "title", widget: "string" }
-      - { label: "description", name: "description", widget: "text", default: "" }
-      - { label: "date", name: "date", widget: "date" }
-      - { label: "lang", name: "lang", widget: "string", default: "de" }
-      - { label: "published", name: "published", widget: "boolean", default: true }
-      - { label: "tags", name: "tags", widget: "list", default: [] }
-      - { label: "coverImage", name: "coverImage", widget: "image" }
-      - { label: "body", name: "body", widget: "markdown" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description", name: "description", widget: "text", default: "" }
+      - { label: "Date", name: "date", widget: "date" }
+      - { label: "Language", name: "lang", widget: "string", default: "de" }
+      - { label: "Published", name: "published", widget: "boolean", default: true }
+      - { label: "Tags", name: "tags", widget: "list", default: [] }
+      - { label: "Cover", name: "coverImage", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "docs"
     label: "Docs"
