@@ -57,4 +57,4 @@ At the same time the political situation is kind of puzzling. People were talkin
 
 We look forward to learning more and strengthening exchanges across borders. Many thanks to all for the experience, and to Thorben and the rest of the cividi team for supporting our hackathon efforts.
 
-Further impressions on [Twitter](twitter.com/hashtag/dbhackathon)
+Further impressions on [Twitter](https://twitter.com/hashtag/dbhackathon)
