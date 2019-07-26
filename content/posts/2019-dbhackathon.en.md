@@ -16,7 +16,9 @@ An omnipresent topic was mobility in the form of bike sharing and micromobility.
 
 Thorben worked on improving data quality on bike infrastructure in OpenStreetMap, e.g. to improve the basis for analysis. The idea being, that buiding a single-purpose editor for bike stands greatly improves accessability to mapping and has to potential to bring domain specific knowledge into OpenStreetMap even from the less tech savy. A quick proof of concept based on the web editor for OpenStreetMap (iD) can be found over at [tordans/iD](https://github.com/tordans/iD) and a write up on GitHub at [n0rdlicht/fahrradstellplaetze-berlin](https://github.com/n0rdlicht/fahrradstellplaetze-berlin).
 
-![Screenshot of Fahrradstellplaetze Berlin](./images/2019q1/dbhackathon-fahrradstellplaetze.jpg)
+![Screenshot of Fahrradstellplaetze Berlin, Original Photo by [Devin Justesen](https://unsplash.com/@devjustesen) on [Unsplash](https://unsplash.com/search/photos/urban-iphone-screen-hand)](./images/2019q1/dbhackathon-fahrradstellplaetze.jpg)
+
+<small>cividi, original photo by [Devin Justesen](https://unsplash.com/@devjustesen) on [Unsplash](https://unsplash.com/search/photos/urban-iphone-screen-hand)</small>
 
 Meanwhile, I held conversations with various hackathon participants, from machine learning enthusiasts to consultants, with whom we debated the evolving industrialization of open data (e.g. open data and APIs [working group at Bitkom](https://www.bitkom.org/Bitkom/Organisation/Gremien/Open-Data-Open-API.html)) and role of the civil society.
 
