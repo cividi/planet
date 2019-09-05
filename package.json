@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "build": "gridsome build",
+    "serve": "gridsome serve",
     "develop": "gridsome develop",
     "explore": "gridsome explore",
     "now-build": "yarn build",
