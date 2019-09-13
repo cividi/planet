@@ -1,4 +1,4 @@
-# Cividi Planet
+# cividi planet
 
 Based on Gridsome Blog.
 
