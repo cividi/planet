@@ -5,8 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: '(cividi) home',
-  siteDescription: 'Digitale Werkzeuge für die analoge Stadt',
+  siteName: 'surface',
+  siteDescription: 'Digital tools for the analogue city',
   siteUrl: 'https://cividi.be',
 
   plugins: [

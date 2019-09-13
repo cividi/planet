@@ -23,9 +23,10 @@
 
     <div class="post-comments">
       <!-- Add comment widgets here -->
+      <a href="https://twitter.com/intent/tweet?screen_name=cividitech&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-text="#CivicUrbanism" data-dnt="true" data-show-count="false">Reply to @cividitech</a>
     </div>
 
-    <Author class="post-author" />
+    <!-- <Author class="post-author" /> -->
   </Layout>
 </template>
 
@@ -119,6 +120,12 @@ query Post ($path: String!) {
 
 .post-comments {
   padding: calc(var(--space) / 2);
+  text-align: center;
+  a { text-decoration: none; }
+
+  &:hover {
+    a { text-decoration: underline; }
+  }
 
   &:empty {
     display: none;

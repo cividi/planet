@@ -1,16 +1,16 @@
 <template>
-  <Layout :show-logo="false">
+  <Layout>
     <!-- Author intro -->
     <!-- <Author :show-title="false" /> -->
 
 		<center>
 			<a href="https://cividi.ch">
-				<g-image v-if='lightMode' class="logotype" src="~/assets/images/logo/cividi_logotype_white.png" blur="5" />
-				<g-image v-else class="logotype" src="~/assets/images/logo/cividi_logotype_primary.png" blur="5" />
+				<g-image v-if='lightMode' class="logotype" src="~/assets/images/logo/cividi_icon_logotype_transparent_bg.png" blur="5" />
+				<g-image v-else class="logotype" src="~/assets/images/logo/cividi_icon_logotype_white_bg.png" blur="5" />
 			</a>
 
 			<p class="nav__intro">
-				The <b><a href="https://cividi.ch">cividi</a></b> team blog.
+				The <b><a href="https://cividi.ch">cividi</a></b> team blogs here.
 			</p>
 		</center>
 
@@ -70,12 +70,19 @@ export default {
     PostCard
   },
 	data () {
-		return {
-			lightMode: (window.__theme != 'dark')
-		}
+		return { lightMode: true }
+	},
+	mounted () {
+		this.lightMode = (window.__theme != 'dark');
+		var self = this;
+		window.__onThemeChange = function() {
+			console.log('update...');
+			self.lightMode = (window.__theme != 'dark');
+			self.$forceUpdate;
+		};
 	},
   metaInfo: {
-    title: '(cividi)'
+    title: 'planet cividi'
   }
 }
 </script>
