@@ -4,10 +4,8 @@
     <!-- <Author :show-title="false" /> -->
 
 		<center>
-			<a href="https://cividi.ch">
-				<g-image v-if='lightMode' class="logotype" src="~/assets/images/logo/cividi_icon_logotype_transparent_bg.png" blur="5" />
-				<g-image v-else class="logotype" src="~/assets/images/logo/cividi_icon_logotype_white_bg.png" blur="5" />
-			</a>
+			<g-image v-if='lightMode' class="logotype" src="~/assets/images/logo/cividi_icon_logotype_transparent_bg.png" blur="5" />
+			<g-image v-else class="logotype" src="~/assets/images/logo/cividi_icon_logotype_white_bg.png" blur="5" />
 
 			<p class="nav__intro">
 				The <b><a href="https://cividi.ch">cividi</a></b> team blogs here.
@@ -74,12 +72,13 @@ export default {
 	},
 	mounted () {
 		this.lightMode = (window.__theme != 'dark');
-		var self = this;
-		window.__onThemeChange = function() {
-			console.log('update...');
-			self.lightMode = (window.__theme != 'dark');
-			self.$forceUpdate;
-		};
+		// Causes issues on Chrome
+		// var self = this;
+		// window.__onThemeChange = function() {
+		// 	console.log('update...');
+		// 	self.lightMode = (window.__theme != 'dark');
+		// 	self.$forceUpdate;
+		// };
 	},
   metaInfo: {
     title: 'planet cividi'
