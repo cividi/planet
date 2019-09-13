@@ -1,6 +1,6 @@
 ---
 title: Digitaltag
-date: 2019-04-26
+date: 2019-09-03
 tags: ['Events']
 lang: en
 description: "Impressions and inspirations from the cividi booth at Swiss Digital Day 2019"
