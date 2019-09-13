@@ -21,7 +21,6 @@
         &nbsp; <span class="copyleft">&copy;</span>  {{ new Date().getFullYear() }}
       </span>
       <span class="footer__links"><a href="//github.com/cividi/planet">Source code</a></span>
-      <div id="ytWidget"></div>
     </footer>
 
   </div>
