@@ -1,12 +1,6 @@
 <template>
 	<div class="nav">
 
-		<g-image class="logotype" src="~/assets/images/logo/cividi_logotype_white.png" blur="5" />
-
-		<p class="nav__intro">
-			Digitale Werkzeuge für die analoge Stadt
-		</p>
-
 		<ul class="nav__links">
 			<li><g-link v-for="edge in $static.docs.edges" :key="edge.node.id" :to="edge.node.path">
 				{{ edge.node.title }}

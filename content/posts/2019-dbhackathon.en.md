@@ -1,5 +1,5 @@
 ---
-title: DB Hackathon 2019
+title: DB Hackathon
 date: 2019-07-21
 tags: ['Events']
 lang: en

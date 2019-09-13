@@ -3,7 +3,7 @@
 
     <header class="header">
       <div class="header__left">
-        <Logo v-if="showLogo" />
+        <a href="https://cividi.ch/en" title="Home page"><Logo v-if="showLogo" /></a>
       </div>
 
       <div class="header__right">
@@ -20,7 +20,8 @@
         <a href="https://creativecommons.org/licenses/by/4.0/deed.de">CC BY 4.0</a>
         &nbsp; <span class="copyleft">&copy;</span>  {{ new Date().getFullYear() }}
       </span>
-      <span class="footer__links"><a href="//bitbucket.org/cividi">Source code</a></span>
+      <span class="footer__links"><a href="//github.com/cividi/planet">Source code</a></span>
+      <div id="ytWidget"></div>
     </footer>
 
   </div>

@@ -1,5 +1,5 @@
 ---
-title: Criterion 2019
+title: Criterion
 date: 2019-04-26
 tags: ['Events']
 lang: en

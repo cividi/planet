@@ -3,7 +3,18 @@
     <!-- Author intro -->
     <!-- <Author :show-title="false" /> -->
 
-    <Nav />
+		<center>
+			<a href="https://cividi.ch">
+				<g-image v-if='lightMode' class="logotype" src="~/assets/images/logo/cividi_logotype_white.png" blur="5" />
+				<g-image v-else class="logotype" src="~/assets/images/logo/cividi_logotype_primary.png" blur="5" />
+			</a>
+
+			<p class="nav__intro">
+				The <b><a href="https://cividi.ch">cividi</a></b> team blog.
+			</p>
+		</center>
+
+    <!-- <Nav /> -->
 
     <!-- List posts -->
     <div class="posts">
@@ -12,6 +23,10 @@
 
   </Layout>
 </template>
+
+<style>
+.nav__intro { margin: 1em 0 5em; }
+</style>
 
 <page-query>
 {
@@ -44,16 +59,21 @@
 </page-query>
 
 <script>
-import Nav from '~/components/Nav.vue'
+// import Nav from '~/components/Nav.vue'
 import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
 
 export default {
   components: {
     Author,
-    Nav,
+    // Nav,
     PostCard
   },
+	data () {
+		return {
+			lightMode: (window.__theme != 'dark')
+		}
+	},
   metaInfo: {
     title: '(cividi)'
   }
