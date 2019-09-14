@@ -23,7 +23,7 @@
 
     <div class="post-comments">
       <!-- Add comment widgets here -->
-      <a href="https://twitter.com/intent/tweet?screen_name=cividitech&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-text="#CivicUrbanism" data-dnt="true" data-show-count="false">Reply to @cividitech</a>
+      <a href="https://twitter.com/intent/tweet?screen_name=cividitech&ref_src=twsrc%5Etfw" class="twitter-mention-button" target="_blank">Reply to @cividitech</a>
     </div>
 
     <!-- <Author class="post-author" /> -->

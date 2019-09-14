@@ -3,7 +3,7 @@
 
     <header class="header">
       <div class="header__left">
-        <a href="https://cividi.ch/en" title="Home page"><Logo v-if="showLogo" /></a>
+        <Logo />
       </div>
 
       <div class="header__right">
@@ -31,9 +31,6 @@ import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
 
 export default {
-  props: {
-    showLogo: { default: true }
-  },
   components: {
     Logo,
     ToggleTheme

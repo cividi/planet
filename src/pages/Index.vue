@@ -1,7 +1,5 @@
 <template>
   <Layout>
-    <!-- Author intro -->
-    <!-- <Author :show-title="false" /> -->
 
 		<center>
 			<g-image v-if='lightMode' class="logotype" src="~/assets/images/logo/cividi_icon_logotype_transparent_bg.png" blur="5" />
@@ -11,8 +9,6 @@
 				The <b><a href="https://cividi.ch">cividi</a></b> team blogs here.
 			</p>
 		</center>
-
-    <!-- <Nav /> -->
 
     <!-- List posts -->
     <div class="posts">
@@ -57,28 +53,16 @@
 </page-query>
 
 <script>
-// import Nav from '~/components/Nav.vue'
 import Author from '~/components/Author.vue'
 import PostCard from '~/components/PostCard.vue'
 
 export default {
   components: {
     Author,
-    // Nav,
     PostCard
   },
 	data () {
 		return { lightMode: true }
-	},
-	mounted () {
-		this.lightMode = (window.__theme != 'dark');
-		// Causes issues on Chrome
-		// var self = this;
-		// window.__onThemeChange = function() {
-		// 	console.log('update...');
-		// 	self.lightMode = (window.__theme != 'dark');
-		// 	self.$forceUpdate;
-		// };
 	},
   metaInfo: {
     title: 'planet cividi'
