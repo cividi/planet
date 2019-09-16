@@ -1,10 +1,10 @@
 ---
 title: Engagement
-date: 2019-07-11
-tags: ['News']
+published: false
+date: 2019-09-25
 lang: en
+tags: ['News']
 description: "It's official! We are a new pioneer project of Engagement Migros"
-published: true
 coverImage: ./images/2019q1/em-cividi-matrix-framework.jpg
 ---
 
