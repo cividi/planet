@@ -1,16 +1,16 @@
 ---
-title: Child-friendly
+title: Kinderfreundlich
 published: true
-date: 2019-10-28
+date: 2019-11-11
 lang: en
 tags: ['News']
 description: "#CivicUrbanism in support of child-friendly spaces"
 coverImage: ./images/2019q1/unicef.jpg
 ---
 
-The risks of digital media for the child are well known, but more of us - not just parents and educators - need to recognize that digital technologies in children's hands can also be creative and meaningful tools of democracy. The next generation of so-called digital natives, the adults of tomorrow, could be much more involved in planning processes at a local political and administrative level.
+While the risks of digital media for the child are well known, more of us - adults, parents, educators, forward looking politicians - are recognizing that digital technologies even in children's hands can be meaningful tools of democracy. The next generation of so-called digital natives, the adults of tomorrow, should be involved in planning processes at a local political and administrative level.
 
-Such was the thesis of the recent ['Digitales Kind - analoge Gemeinde?' Symposium](https://www.unicef.ch/de/ueber-unicef/aktuell/veranstaltungen/2019-10-28/digitales-kind-analoge-gemeinde) organized by UNICEF on child-friendly living spaces _(kinderfreundlichen Lebensräumen)_, to which our startup team was invited. We (Viktoria and Oleg) participated and put up a **cividi** booth as described in this post. The discussion focused on using new media in dialogue with children and young people, in the form of opportunities and challenges for municipal planning and development.
+Such was the thesis of the recent ['Digitales Kind - analoge Gemeinde?' Symposium](https://www.unicef.ch/de/ueber-unicef/aktuell/veranstaltungen/2019-10-28/digitales-kind-analoge-gemeinde) organized by UNICEF on child-friendly living spaces _(Kinderfreundliche Lebensräumen)_, to which our startup team was invited. We (Viktoria and Oleg) participated and put up a **cividi** booth as described in this post. The discussion focused on using new media in dialogue with children and young people, in the form of opportunities and challenges for municipal planning and development.
 
 <img src="https://www.unicef.ch/sites/default/files/styles/primer_content_xl/public/2019-09/kfl-tagung-2019.jpg" hspace="50">
 
