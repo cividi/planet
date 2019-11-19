@@ -8,6 +8,15 @@ sections:
   path: content/posts
   label: Posts
   match: "**/*"
+- type: document
+  path: content/docs
+  label: Docs
+  match: "**/*"
+- type: directory
+  path: src
+  label: Source
+  create: none
+  match: "**/*"
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
