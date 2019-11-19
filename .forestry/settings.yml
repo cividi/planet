@@ -7,18 +7,16 @@ sections:
 - type: document
   path: content/posts
   label: Posts
-  match: "**/*"
 - type: document
   path: content/docs
   label: Docs
-  match: "**/*"
 - type: directory
   path: src
   label: Source
   create: none
   match: "**/*"
-upload_dir: uploads
-public_path: "/uploads"
+upload_dir: content/posts/images
+public_path: "./images"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
