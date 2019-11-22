@@ -4,22 +4,33 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
-- type: boolean
-  name: published
-  label: published
-- type: datetime
-  name: date
-  label: date
-- type: text
-  name: lang
-  label: lang
-- type: list
-  name: tags
-  label: tags
+  label: Title
+  description: A short (one or two word) title
 - type: text
   name: description
-  label: description
+  label: Description
+  description: A short text (one sentence) as subtitle.
 - type: file
   name: coverImage
-  label: coverImage
+  label: Cover Image
+- type: list
+  name: tags
+  label: Tags
+- type: text
+  name: lang
+  label: Language
+  description: en, de, fr, it, ...
+  default: en
+- type: datetime
+  name: date
+  label: Date
+  config:
+    date_format: YYYY-MM-DD
+    export_format: YYYY-MM-DD
+    required: true
+  default: now
+- type: boolean
+  name: published
+  label: Published
+  description: Un-check to hide from front page
+  default: true
