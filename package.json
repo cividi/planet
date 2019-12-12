@@ -18,7 +18,7 @@
     "@gridsome/remark-prismjs": "*",
     "@gridsome/source-filesystem": "*",
     "@gridsome/transformer-remark": "*",
-    "gridsome": "^0.6.9"
+    "gridsome": "0.7.11"
   },
   "devDependencies": {
     "node-sass": "*",

@@ -16,12 +16,10 @@ module.exports = {
       options: {
         typeName: 'Post',
         path: 'content/posts/*.md',
-        route: '/blog/:lang/:year-:month-:day',
         refs: {
           // Creates a GraphQL collection from 'tags' in front-matter and adds a reference.
           tags: {
             typeName: 'Tag',
-            route: '/tag/:id',
             create: true
           }
         }
@@ -32,13 +30,12 @@ module.exports = {
       options: {
         typeName: 'Doc',
         path: 'content/docs/*.md',
-        route: '/p/:lang/:slug'
       }
     },{
       use: '@gridsome/plugin-sitemap',
       options: {
         cacheTime: 600000, // default
-        //exclude: ['/exclude-me'],
+        exclude: [],
         config: {
           '/articles/*': {
             changefreq: 'weekly',
@@ -52,6 +49,12 @@ module.exports = {
       }
     }
   ],
+
+  templates: {
+    Tag: '/tag/:id',
+    Doc: '/p/:lang/:slug',
+    Post: '/blog/:lang/:year-:month-:day'
+  },
 
   transformers: {
     //Add markdown support to all file-system sources
