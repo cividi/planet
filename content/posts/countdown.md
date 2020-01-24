@@ -8,4 +8,4 @@ coverImage: "./images/countdown-cividi.png"
 tags: []
 
 ---
-Save the date :)
+**Save the date!** We're going up send some waves on the 33rd day, during the 5th calendar week, of the zero-based decade.
