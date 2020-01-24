@@ -34,3 +34,5 @@ fields:
   label: Published
   description: Un-check to hide from front page
   default: true
+pages:
+- content/posts/countdown.md
